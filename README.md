@@ -14,6 +14,8 @@ cmcc_rax3000m_immortalwrt
 
 Sources:
 
+https://github.com/bwnqx/openwrt-rax3000m_nand
+
 https://github.com/P3TERX/Actions-OpenWrt
 
 https://github.com/Lienol/openwrt
