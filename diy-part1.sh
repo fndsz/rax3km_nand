@@ -22,6 +22,8 @@
 #sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
 sed -i '$a src-git luci-app-wolplus https://github.com/fndsz/luci-app-wolplus' feeds.conf.default
 
+echo 'src-git wolplus https://github.com/fndsz/luci-app-wolplus.git' >> 'feeds.conf.default' #repleace with luci-app-wolplus.git
+
 ####### Replace with JerryKuKu’s Argon
 rm -rf openwrt/package/lean/luci-theme-argon #delete original argon theme
 rm -rf ./feeds/luci/themes/luci-theme-argon
