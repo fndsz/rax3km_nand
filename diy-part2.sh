@@ -16,9 +16,6 @@ sed -i 's/192.168.1.1/10.28.1.1/g' package/base-files/files/bin/config_generate
 # 修改主机名称
 sed -i 's/ImmortalWrt/RAX3000M/g' package/base-files/files/bin/config_generate
 
-# 修改默认wifi名称ssid为MIR3G
-#sed -i 's/ssid=OpenWrt/ssid=MIR3G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-
 # 开启MU-MIMO
 #sed -i 's/mu_beamformer=0/mu_beamformer=1/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
