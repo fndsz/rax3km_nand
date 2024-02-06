@@ -21,7 +21,7 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
 
-echo 'src-git wolplus https://github.com/fndsz/luci-app-wolplus.git' >> 'feeds.conf.default' #repleace with luci-app-wolplus.git
+echo 'src-git wolplus https://github.com/fndsz/luci-app-wolplus.git' >> 'feeds.conf.default' #repleace with wolplus
 
 ####### Replace with JerryKuKu’s Argon
 rm -rf openwrt/package/lean/luci-theme-argon #delete original argon theme
