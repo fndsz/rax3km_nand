@@ -20,7 +20,6 @@
 #sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
-sed -i '$a src-git luci-app-wolplus https://github.com/fndsz/luci-app-wolplus' feeds.conf.default
 
 echo 'src-git wolplus https://github.com/fndsz/luci-app-wolplus.git' >> 'feeds.conf.default' #repleace with luci-app-wolplus.git
 
