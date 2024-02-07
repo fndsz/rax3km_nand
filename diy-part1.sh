@@ -27,10 +27,10 @@ rm -rf openwrt/package/lean/luci-theme-argon #delete original argon theme
 rm -rf ./feeds/luci/themes/luci-theme-argon
 #echo 'src-git ArgonTheme https://github.com/jerrykuku/luci-theme-argon.git' >> 'feeds.conf.default' #repleace with JerryKuKu’s Argon Theme
 #echo 'src-git ArgonThemeConfig https://github.com/jerrykuku/luci-app-argon-config.git' >> 'feeds.conf.default' #add JerryKuKu’s Argon Config Feature
-echo 'src-git wolplus https://github.com/siwind/luci-app-wolplus' >> 'feeds.conf.default'
 rm -rf package/lean/luci-theme-argon  #删除原Argon主题
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon #加入JerryKuKu’s Argon
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config #加入JerryKuKu’s Argon Config
+git clone https://github.com/siwind/luci-app-wolplus.git package/lean/luci-app-wolplus 
 cd ..
 #cd ..
  
