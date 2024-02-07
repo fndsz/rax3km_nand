@@ -20,7 +20,7 @@
 #sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git immortalwrt https://github.com/immortalwrt/packages' feeds.conf.default
-sed -i '$a src-git pppoex https://github.com/pppoex/openwrt-packages' feeds.conf.default
+git clone https://github.com/siwind/luci-app-wolplus.git package/lean/luci-app-wolplus
 
 ####### Replace with JerryKuKu’s Argon
 rm -rf openwrt/package/lean/luci-theme-argon #delete original argon theme
