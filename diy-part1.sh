@@ -30,7 +30,7 @@ rm -rf package/lean/luci-theme-argon  #删除原Argon主题
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon #加入JerryKuKu’s Argon
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config #加入JerryKuKu’s Argon Config
 git clone https://github.com/siwind/luci-app-wolplus.git package/lean/luci-app-wolplus #加入wolplus
-git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset #加入autotimeset
+#git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset #加入autotimeset
 cd ..
 #cd ..
  
